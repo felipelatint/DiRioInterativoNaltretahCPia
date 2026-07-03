@@ -1415,39 +1415,11 @@ const LOOK2: Sprite = LOOK.map((row, i) => {
   return [...row];
 
 });
- 
-// ─── DATA ─────────────────────────────────────────────────────────────────────
- 
-function trail(seed: number): [number, number][] {
 
-  const pts: [number, number][] = [];
+  '01':
 
-  let x = 0.08, y = 0.5;
 
-  for (let i = 0; i < 80; i++) {
-
-    x = Math.min(0.92, x + Math.abs(Math.sin(i * 0.32 + seed)) * 0.018 + 0.007);
-
-    y = Math.max(0.06, Math.min(0.94, y + Math.cos(i * 0.47 + seed * 1.3) * 0.032));
-
-    pts.push([x, y]);
-
-  }
-
-  return pts;
-
-}
- 
-const DATA: Record<string, MonthData> = {
-
-  '01': {
-
-    label: 'Projeto',
-
-    days: {
-
-      "*": {
-
+    label: 'Projeto'
         badge: 1,
 
         comment: 'Trilha incrível — cachoeira escondida, névoa nos vales, 847 m de subida. Uma das melhores do ano até agora.',
