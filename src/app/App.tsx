@@ -266,8 +266,8 @@ const DATA: Record<string, MonthData> = {
 
   '1': {
     label: 'Sobre o projeto',
-   days{
-    0,
+   days: {
+    0: {
         badge: 5,
 
         comment: 'Informações sobre o projeto de reestruturação do Ego e eliminação de personas desatualizadas',
