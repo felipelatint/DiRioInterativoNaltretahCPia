@@ -144,7 +144,7 @@ const DATA: Record<string, MonthData> = {
   '07/2026': {
     label: 'Julho 2026',
     days: {
-      03: {
+      "03": {
         badge: 1,
         comment: 'Prelúdio para a viagem de volta para casa',
         playlist: [
@@ -157,112 +157,7 @@ const DATA: Record<string, MonthData> = {
           { type: 'text', content: 'Hoje pela manhã está tranquilo, mais tarde iniciará o estresse por responsabilidade do meu pai que fica ansioso e irradia para todo o ambiente' },
         ],
       },
-      20: {
-        badge: 3,
-        comment: 'Academia. Chuva o dia todo. Treino feito, pelo menos.',
-        playlist: [
-          { title: 'Ode to My Family', artist: 'Cranberries', duration: '4:33' },
-          { title: 'Black', artist: 'Pearl Jam', duration: '5:44' },
-        ],
-        posts: [
-          { type: 'text', content: 'Dia de academia. Foco em mobilidade e força de base — agachamento, terra, barra fixa. Nada épico, mas consistência é o que importa.\n\nA chuva que caiu desde a manhã inviabilizou qualquer saída ao ar livre. Voltei a pé pelo caminho mais longo aproveitando a garoa.' },
-        ],
-      },
-      27: {
-        badge: 2,
-        comment: 'Corrida noturna no parque. Fresco, quieto, perfeito.',
-        playlist: [
-          { title: 'Holocene', artist: 'Bon Iver', duration: '5:36' },
-          { title: 'Lost in the Light', artist: 'Bahamas', duration: '3:49' },
-          { title: 'Bloom', artist: 'The Paper Kites', duration: '3:02' },
-        ],
-        posts: [
-          { type: 'gpx', title: 'Corrida noturna — Parque Municipal', distance: '7,8 km', elevation: '↑ 112 m', duration: '44min 20s', points: trail(2) },
-          { type: 'text', content: 'O parque à noite tem uma atmosfera diferente. As luzes dos postes criam uma trilha dourada, e o frio seco de janeiro deixa o ar limpo.\n\nMantive ritmo entre 5:30–6:00/km nos primeiros 5 km, abrindo para 5:00 no final. Coração acelerado e cabeça completamente vazia.' },
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=600&fit=crop&auto=format', caption: 'Parque às 22h — trilha iluminada pelos postes do percurso.' },
-        ],
-      },
-    },
-  },
-  '02/2024': {
-    label: 'Fevereiro 2024',
-    days: {
-      3: {
-        badge: 4,
-        comment: 'Pneu furado, trilha fechada, chuva o dia todo. Mas chegamos lá no final.',
-        playlist: [
-          { title: 'Welcome to the Black Parade', artist: 'My Chemical Romance', duration: '5:11' },
-          { title: 'Killing in the Name', artist: 'Rage Against the Machine', duration: '5:14' },
-        ],
-        posts: [
-          { type: 'text', content: 'Saímos às 6h. Às 8h, pneu furado na estrada de terra. Troca realizada sob chuva miúda, com barro até os tornozelos. A trilha planejada estava interditada por deslizamento recente — descobrimos só ao chegar na entrada.\n\nImprovizamos uma rota alternativa mais curta. Chegamos no ponto mais alto às 11h30, completamente molhados. Vista nublada. Mas chegamos lá.' },
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop&auto=format', caption: 'Rota alternativa improvisada — névoa e chuva durante toda a subida.' },
-          { type: 'gpx', title: 'Rota improvisada — Serra do Cipó', distance: '8,1 km', elevation: '↑ 612 m', duration: '2h 58min', points: trail(3) },
-        ],
-      },
-      10: {
-        badge: 5,
-        comment: 'Não tem palavras. Bivaque a 2.340 m. Via Láctea às 3h. Uma experiência para sempre.',
-        playlist: [
-          { title: 'Pyramid Song', artist: 'Radiohead', duration: '4:48' },
-          { title: 'Motion Picture Soundtrack', artist: 'Radiohead', duration: '7:02' },
-          { title: "Comptine d'Un Autre Été", artist: 'Yann Tiersen', duration: '2:18' },
-          { title: 'Experience', artist: 'Ludovico Einaudi', duration: '5:13' },
-        ],
-        posts: [
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop&auto=format', caption: 'Primeiro bivaque em altitude — 2.340 m. Noite absolutamente limpa.' },
-          { type: 'text', content: 'Dormimos no ponto mais alto que já havia pisado. O bivaque ficou a 2.340 m de altitude. Às 3h da manhã acordei com o frio e saí para fora do saco.\n\nO céu estava completamente aberto — a Via Láctea tão nítida que parecia pintada. Passei uma hora olhando para cima sem pensar em absolutamente nada. Não há palavras para esse nível de escuridão e silêncio.\n\nNa descida, o amanhecer tingiu as nuvens abaixo de nós com laranja e rosa. Caminhamos por dentro das nuvens por 45 minutos.' },
-          { type: 'gpx', title: 'Travessia com bivaque — Pico dos Marins', distance: '18,2 km', elevation: '↑ 1.420 m', duration: '7h 11min', points: trail(4) },
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&h=600&fit=crop&auto=format', caption: 'Amanhecer visto de cima das nuvens — descida pelo vale sul.' },
-        ],
-      },
-      17: {
-        badge: 1,
-        comment: 'Mountain bike perfeita. Trilha nova descoberta, condições ideais.',
-        playlist: [
-          { title: "Don't Stop Me Now", artist: 'Queen', duration: '3:29' },
-          { title: 'Mr. Brightside', artist: 'The Killers', duration: '3:42' },
-          { title: 'Take Me Out', artist: 'Franz Ferdinand', duration: '3:57' },
-        ],
-        posts: [
-          { type: 'gpx', title: 'Mountain Bike — Trilha Pedra Branca', distance: '22,6 km', elevation: '↑ 934 m', duration: '1h 48min', points: trail(5) },
-          { type: 'text', content: 'Descobri uma trilha nova que desce pela face norte. Barro perfeito depois da chuva de quinta — aderência ideal, sem lama excessiva. Três descidas técnicas com pedras expostas que exigiram atenção total.\n\nMédia geral de 12,5 km/h. No segmento principal de descida, 47 km/h máximo. Adrenalina total.' },
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=800&h=600&fit=crop&auto=format', caption: 'Descida técnica — trilha Pedra Branca, face norte.' },
-        ],
-      },
-    },
-  },
-  '03/2024': {
-    label: 'Março 2024',
-    days: {
-      5: {
-        badge: 2,
-        comment: 'Trail run com subidas longas. Bom ritmo, pés encharcados.',
-        playlist: [
-          { title: 'Fast Car', artist: 'Tracy Chapman', duration: '4:57' },
-          { title: 'Breathe (2 AM)', artist: 'Anna Nalick', duration: '4:23' },
-        ],
-        posts: [
-          { type: 'gpx', title: 'Trail run — Circuito das Cachoeiras', distance: '15,3 km', elevation: '↑ 780 m', duration: '1h 52min', points: trail(6) },
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&h=600&fit=crop&auto=format', caption: 'Subida entre a segunda e terceira cachoeira.' },
-          { type: 'text', content: 'Trail run no circuito que passa pelas quatro cachoeiras. Subi o segundo e terceiro trecho em esforço contínuo, sem parar. A altitude foi chegando aos poucos.\n\nDescida final em ritmo rápido, 4:20/km. Pés encharcados, ânimo alto.' },
-        ],
-      },
-      12: {
-        badge: 3,
-        comment: 'Caminhada urbana exploratória. Agradável, mas nada extraordinário.',
-        playlist: [
-          { title: 'Yellow', artist: 'Coldplay', duration: '4:29' },
-          { title: 'The Scientist', artist: 'Coldplay', duration: '5:09' },
-        ],
-        posts: [
-          { type: 'text', content: 'Saída sem objetivo definido. Caminhei pelos bairros antigos, explorando ruelas que nunca tinha notado antes. 9 km no total, a pé, sem pressão de tempo.\n\nVi três feiras abertas, dois murais novos, e descobri uma padaria dos anos 60 que ainda usa o forno a lenha original.' },
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=600&fit=crop&auto=format', caption: 'Centro histórico — luz de final de tarde nas fachadas do século XIX.' },
-        ],
-      },
-    },
-  },
-};
+    },},}
 
 // ─── UTILS ────────────────────────────────────────────────────────────────────
 
