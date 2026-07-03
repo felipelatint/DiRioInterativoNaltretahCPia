@@ -265,6 +265,8 @@ function trail(seed: number): [number, number][] {
 const DATA: Record<string, MonthData> = {
 
   '1': {
+   days{
+    0,
 
     label: 'Sobre o projeto',
 
@@ -291,6 +293,7 @@ const DATA: Record<string, MonthData> = {
         ],
 
       },
+           },
 
       
   '2': {
@@ -323,7 +326,7 @@ const DATA: Record<string, MonthData> = {
         ],
 
       },
-
+          },
       10: {
 
         badge: 5,
@@ -369,7 +372,7 @@ const DATA: Record<string, MonthData> = {
       },
     },
   },
-}}
+};
 // ─── UTILS ────────────────────────────────────────────────────────────────────
  
 const parseDur = (d: string) => { const [m, s] = d.split(':').map(Number); return m * 60 + (s || 0); };
