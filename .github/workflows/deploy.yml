@@ -17,7 +17,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps: deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,9 +29,7 @@ jobs:
           node-version: 20
  
       - name: Install pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: 9
+        run: npm install -g pnpm
  
       - name: Install dependencies
         run: pnpm install
@@ -48,3 +46,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 tem menu de contexto
+
