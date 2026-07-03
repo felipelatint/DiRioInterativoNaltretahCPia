@@ -265,11 +265,9 @@ function trail(seed: number): [number, number][] {
 const DATA: Record<string, MonthData> = {
 
   '1': {
+    label: 'Sobre o projeto',
    days{
     0,
-
-    label: 'Sobre o projeto',
-
         badge: 5,
 
         comment: 'Informações sobre o projeto de reestruturação do Ego e eliminação de personas desatualizadas',
