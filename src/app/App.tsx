@@ -352,99 +352,24 @@ const DATA: Record<string, MonthData> = {
         ],
 
       },
-/*
-      17: {
-
-        badge: 1,
-
-        comment: 'Mountain bike perfeita. Trilha nova descoberta, condições ideais.',
-
-        playlist: [
-
-          { title: "Don't Stop Me Now", artist: 'Queen', duration: '3:29' },
-
-          { title: 'Mr. Brightside', artist: 'The Killers', duration: '3:42' },
-
-          { title: 'Take Me Out', artist: 'Franz Ferdinand', duration: '3:57' },
-
-        ],
-
-        posts: [
-
-          { type: 'gpx', title: 'Mountain Bike — Trilha Pedra Branca', distance: '22,6 km', elevation: '↑ 934 m', duration: '1h 48min', points: trail(5) },
-
-          { type: 'text', content: 'Descobri uma trilha nova que desce pela face norte. Barro perfeito depois da chuva de quinta — aderência ideal, sem lama excessiva. Três descidas técnicas com pedras expostas que exigiram atenção total.\n\nMédia geral de 12,5 km/h. No segmento principal de descida, 47 km/h máximo. Adrenalina total.' },
-
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=800&h=600&fit=crop&auto=format', caption: 'Descida técnica — trilha Pedra Branca, face norte.' },
-
-        ],
-
-      },
-
-    },
-
-  },
-*/
-  '07/2026': {
-
+'07/2026': {
     label: 'Julho de 2026',
-
     days: {
-
       3: {
-
         badge: 1,
-
         comment: 'Prelúdio a um final de semana estressante',
-
         playlist: [
-
           { title: 'Fast Car', artist: 'Tracy Chapman', duration: '4:57' },
-
           { title: 'Breathe (2 AM)', artist: 'Anna Nalick', duration: '4:23' },
-
         ],
-
         posts: [
-
-
           { type: 'photo', src: 'https://i.imgur.com/D3Fw7pQ.jpeg', caption: 'Temporario' },
-
-          { type: 'text', content: 'Iniciarei aqui o diário de uma tentativa de mudança estrutural na minha vida. /n//n/ Utilizarei Revia 25mg e Atentah 10mg de manhã e a noite como auxilio.' },
-
+          { type: 'text', content: 'Iniciarei aqui o diário de uma tentativa de mudança estrutural na minha vida. \n\nUtilizarei Revia 25mg e Atentah 10mg de manhã e a noite como auxilio.' },
         ],
-
-      }}}
-/*
-      12: {
-
-        badge: 3,
-
-        comment: 'Caminhada urbana exploratória. Agradável, mas nada extraordinário.',
-
-        playlist: [
-
-          { title: 'Yellow', artist: 'Coldplay', duration: '4:29' },
-
-          { title: 'The Scientist', artist: 'Coldplay', duration: '5:09' },
-
-        ],
-
-        posts: [
-
-          { type: 'text', content: 'Saída sem objetivo definido. Caminhei pelos bairros antigos, explorando ruelas que nunca tinha notado antes. 9 km no total, a pé, sem pressão de tempo.\n\nVi três feiras abertas, dois murais novos, e descobri uma padaria dos anos 60 que ainda usa o forno a lenha original.' },
-
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=600&fit=crop&auto=format', caption: 'Centro histórico — luz de final de tarde nas fachadas do século XIX.' },
-
-        ],
-
       },
-
     },
-
   },
-
-};*/
+};
 // ─── UTILS ────────────────────────────────────────────────────────────────────
  
 const parseDur = (d: string) => { const [m, s] = d.split(':').map(Number); return m * 60 + (s || 0); };
