@@ -141,22 +141,20 @@ function trail(seed: number): [number, number][] {
 }
 
 const DATA: Record<string, MonthData> = {
-  '01/2024': {
-    label: 'Janeiro 2024',
+  '07/2026': {
+    label: 'Julho 2026',
     days: {
-      15: {
+      03: {
         badge: 1,
-        comment: 'Trilha incrível — cachoeira escondida, névoa nos vales, 847 m de subida. Uma das melhores do ano até agora.',
+        comment: 'Prelúdio para a viagem de volta para casa',
         playlist: [
           { title: 'Midnight City', artist: 'M83', duration: '4:03' },
           { title: 'Intro', artist: 'The xx', duration: '2:07' },
           { title: 'Running Up That Hill', artist: 'Kate Bush', duration: '5:02' },
         ],
         posts: [
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&auto=format', caption: 'Vista do cume — Serra da Mantiqueira, jan. 2024.' },
-          { type: 'text', content: 'A trilha começou antes do sol nascer. Subimos pelo trecho sul, passando por três corredeiras de água fria. A névoa cobria os vales como uma segunda pele da montanha.\n\nNo cume, silêncio quase completo — só o vento e o som dos próprios passos. Descemos pela encosta oposta com visão de 40 km em cada direção.' },
-          { type: 'gpx', title: 'Trilha Serra da Mantiqueira — Cume Sul', distance: '12,4 km', elevation: '↑ 847 m', duration: '3h 22min', points: trail(1) },
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop&auto=format', caption: 'Descida pela encosta norte — névoa densa nos vales abaixo.' },
+          { type: 'photo', src: 'https://drive.google.com/file/d/1FcnSWUrkgEyVsUNpDgNB6A8FwfkAS6ez/view?usp=drivesdk', caption: 'Licores que levarei para casa' },
+          { type: 'text', content: 'Hoje pela manhã está tranquilo, mais tarde iniciará o estresse por responsabilidade do meu pai que fica ansioso e irradia para todo o ambiente' },
         ],
       },
       20: {
