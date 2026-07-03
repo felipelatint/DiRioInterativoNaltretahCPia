@@ -370,7 +370,7 @@ const DATA: Record<string, MonthData> = {
       },
     },
   },
-};
+}};
 // ─── UTILS ────────────────────────────────────────────────────────────────────
  
 const parseDur = (d: string) => { const [m, s] = d.split(':').map(Number); return m * 60 + (s || 0); };
