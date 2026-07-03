@@ -264,17 +264,13 @@ function trail(seed: number): [number, number][] {
  
 const DATA: Record<string, MonthData> = {
 
-  '01/2024': {
+  '1': {
 
-    label: 'Janeiro 2024',
+    label: 'Sobre o projeto',
 
-    days: {
+        badge: 5,
 
-      15: {
-
-        badge: 1,
-
-        comment: 'Trilha incrível — cachoeira escondida, névoa nos vales, 847 m de subida. Uma das melhores do ano até agora.',
+        comment: 'Informações sobre o projeto de reestruturação do Ego e eliminação de personas desatualizadas',
 
         playlist: [
 
@@ -288,83 +284,26 @@ const DATA: Record<string, MonthData> = {
 
         posts: [
 
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&auto=format', caption: 'Vista do cume — Serra da Mantiqueira, jan. 2024.' },
+          { type: 'photo', src: 'https://i.imgur.com/x8zwC5C.jpeg', caption: 'Uma foto minha atual (temporaria, até eu achar uma foto que exprima melhor o processo e torne o projeto público)' },
 
-          { type: 'text', content: 'A trilha começou antes do sol nascer. Subimos pelo trecho sul, passando por três corredeiras de água fria. A névoa cobria os vales como uma segunda pele da montanha.\n\nNo cume, silêncio quase completo — só o vento e o som dos próprios passos. Descemos pela encosta oposta com visão de 40 km em cada direção.' },
-
-          { type: 'gpx', title: 'Trilha Serra da Mantiqueira — Cume Sul', distance: '12,4 km', elevation: '↑ 847 m', duration: '3h 22min', points: trail(1) },
-
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop&auto=format', caption: 'Descida pela encosta norte — névoa densa nos vales abaixo.' },
-
+          { type: 'text', content: 'A ideia do projeto é simples, modificar quem eu sou até ficar irreconhecivel e isso se dará em diversas frentes! \n\n Começarei descendo o mais fundo possível no nigredo e o vivenciando, mas evitando os vícios e compulsões com a ajuda do Revia 25mg, Atentah 10mg manhã e noite, além do diário de sonhos, sentimentos e projeções e o de estudos intelectuais.' },
+        
         ],
 
       },
 
-      20: {
+      
+  '2': {
 
-        badge: 3,
-
-        comment: 'Academia. Chuva o dia todo. Treino feito, pelo menos.',
-
-        playlist: [
-
-          { title: 'Ode to My Family', artist: 'Cranberries', duration: '4:33' },
-
-          { title: 'Black', artist: 'Pearl Jam', duration: '5:44' },
-
-        ],
-
-        posts: [
-
-          { type: 'text', content: 'Dia de academia. Foco em mobilidade e força de base — agachamento, terra, barra fixa. Nada épico, mas consistência é o que importa.\n\nA chuva que caiu desde a manhã inviabilizou qualquer saída ao ar livre. Voltei a pé pelo caminho mais longo aproveitando a garoa.' },
-
-        ],
-
-      },
-
-      27: {
-
-        badge: 2,
-
-        comment: 'Corrida noturna no parque. Fresco, quieto, perfeito.',
-
-        playlist: [
-
-          { title: 'Holocene', artist: 'Bon Iver', duration: '5:36' },
-
-          { title: 'Lost in the Light', artist: 'Bahamas', duration: '3:49' },
-
-          { title: 'Bloom', artist: 'The Paper Kites', duration: '3:02' },
-
-        ],
-
-        posts: [
-
-          { type: 'gpx', title: 'Corrida noturna — Parque Municipal', distance: '7,8 km', elevation: '↑ 112 m', duration: '44min 20s', points: trail(2) },
-
-          { type: 'text', content: 'O parque à noite tem uma atmosfera diferente. As luzes dos postes criam uma trilha dourada, e o frio seco de janeiro deixa o ar limpo.\n\nMantive ritmo entre 5:30–6:00/km nos primeiros 5 km, abrindo para 5:00 no final. Coração acelerado e cabeça completamente vazia.' },
-
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=600&fit=crop&auto=format', caption: 'Parque às 22h — trilha iluminada pelos postes do percurso.' },
-
-        ],
-
-      },
-
-    },
-
-  },
-
-  '02/2024': {
-
-    label: 'Fevereiro 2024',
+    label: 'Diários dos sonhos',
 
     days: {
 
-      3: {
+      0: {
 
         badge: 4,
 
-        comment: 'Pneu furado, trilha fechada, chuva o dia todo. Mas chegamos lá no final.',
+        comment: 'Diário dos sonhos por dia e/ou impressões ao acordar',
 
         playlist: [
 
@@ -376,12 +315,11 @@ const DATA: Record<string, MonthData> = {
 
         posts: [
 
-          { type: 'text', content: 'Saímos às 6h. Às 8h, pneu furado na estrada de terra. Troca realizada sob chuva miúda, com barro até os tornozelos. A trilha planejada estava interditada por deslizamento recente — descobrimos só ao chegar na entrada.\n\nImprovizamos uma rota alternativa mais curta. Chegamos no ponto mais alto às 11h30, completamente molhados. Vista nublada. Mas chegamos lá.' },
+          { type: 'text', content: 'xx.\n\nyy' },
 
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop&auto=format', caption: 'Rota alternativa improvisada — névoa e chuva durante toda a subida.' },
-
-          { type: 'gpx', title: 'Rota improvisada — Serra do Cipó', distance: '8,1 km', elevation: '↑ 612 m', duration: '2h 58min', points: trail(3) },
-
+          { type: 'photo', src: 'https://i.imgur.com/47XZEGu.jpeg&fit=crop&auto=format', caption: 'Imagem temporaria.' },
+  
+         
         ],
 
       },
@@ -390,7 +328,7 @@ const DATA: Record<string, MonthData> = {
 
         badge: 5,
 
-        comment: 'Não tem palavras. Bivaque a 2.340 m. Via Láctea às 3h. Uma experiência para sempre.',
+        comment: 'Exemplo de entrada.',
 
         playlist: [
 
@@ -406,18 +344,15 @@ const DATA: Record<string, MonthData> = {
 
         posts: [
 
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop&auto=format', caption: 'Primeiro bivaque em altitude — 2.340 m. Noite absolutamente limpa.' },
+          { type: 'photo', src: 'https://i.imgur.com/u59Nnrj.jpeg&fit=crop&auto=format', caption: 'Temporaria.' },
 
-          { type: 'text', content: 'Dormimos no ponto mais alto que já havia pisado. O bivaque ficou a 2.340 m de altitude. Às 3h da manhã acordei com o frio e saí para fora do saco.\n\nO céu estava completamente aberto — a Via Láctea tão nítida que parecia pintada. Passei uma hora olhando para cima sem pensar em absolutamente nada. Não há palavras para esse nível de escuridão e silêncio.\n\nNa descida, o amanhecer tingiu as nuvens abaixo de nós com laranja e rosa. Caminhamos por dentro das nuvens por 45 minutos.' },
+          { type: 'text', content: 'Exemplo.\n\nExemplo.' },
 
-          { type: 'gpx', title: 'Travessia com bivaque — Pico dos Marins', distance: '18,2 km', elevation: '↑ 1.420 m', duration: '7h 11min', points: trail(4) },
-
-          { type: 'photo', src: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&h=600&fit=crop&auto=format', caption: 'Amanhecer visto de cima das nuvens — descida pelo vale sul.' },
 
         ],
 
       },
-
+/*
       17: {
 
         badge: 1,
@@ -449,7 +384,7 @@ const DATA: Record<string, MonthData> = {
     },
 
   },
-
+*/
   '07/2026': {
 
     label: 'Julho de 2026',
@@ -472,16 +407,15 @@ const DATA: Record<string, MonthData> = {
 
         posts: [
 
-          { type: 'gpx', title: 'Trail run — Circuito das Cachoeiras', distance: '15,3 km', elevation: '↑ 780 m', duration: '1h 52min', points: trail(6) },
 
-          { type: 'photo', src: 'https://drive.google.com/file/d/1FcnSWUrkgEyVsUNpDgNB6A8FwfkAS6ez/view', caption: 'Licores para tomar em casa' },
+          { type: 'photo', src: 'https://i.imgur.com/D3Fw7pQ.jpeg', caption: 'Temporario' },
 
           { type: 'text', content: 'Iniciarei aqui o diário de uma tentativa de mudança estrutural na minha vida. /n//n/ Utilizarei Revia 25mg e Atentah 10mg de manhã e a noite como auxilio.' },
 
         ],
 
       },
-
+/*
       12: {
 
         badge: 3,
@@ -510,7 +444,7 @@ const DATA: Record<string, MonthData> = {
 
   },
 
-};
+};*/
  
 // ─── UTILS ────────────────────────────────────────────────────────────────────
  
