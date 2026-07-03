@@ -472,7 +472,7 @@ const DATA: Record<string, MonthData> = {
 
         posts: [
 
-//          { type: 'gpx', title: 'Trail run — Circuito das Cachoeiras', distance: '15,3 km', elevation: '↑ 780 m', duration: '1h 52min', points: trail(6) },
+          { type: 'gpx', title: 'Trail run — Circuito das Cachoeiras', distance: '15,3 km', elevation: '↑ 780 m', duration: '1h 52min', points: trail(6) },
 
           { type: 'photo', src: 'https://drive.google.com/file/d/1FcnSWUrkgEyVsUNpDgNB6A8FwfkAS6ez/view', caption: 'Licores para tomar em casa' },
 
