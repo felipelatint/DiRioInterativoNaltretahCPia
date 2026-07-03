@@ -414,7 +414,7 @@ const DATA: Record<string, MonthData> = {
 
         ],
 
-      };
+      }};
 /*
       12: {
 
